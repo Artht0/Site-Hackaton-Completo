@@ -1,12 +1,11 @@
 import { useNavigate } from 'react-router-dom'
 
 const oficinas = [
-  { id: 1, nome: 'Oficina 1 – Robótica Criativa', cor: 'from-blue-500 to-blue-600', emoji: '🤖' },
-  { id: 2, nome: 'Oficina 2 – Design Thinking', cor: 'from-green-500 to-green-600', emoji: '🎨' },
-  { id: 3, nome: 'Oficina 3 – Programação Web', cor: 'from-yellow-500 to-yellow-600', emoji: '💻' },
-  { id: 4, nome: 'Oficina 4 – Inteligência Artificial', cor: 'from-red-500 to-red-600', emoji: '🧠' },
-  { id: 5, nome: 'Oficina 5 – Desenvolvimento Mobile', cor: 'from-orange-500 to-orange-600', emoji: '📱' },
-  { id: 6, nome: 'Oficina 6 – Segurança Digital', cor: 'from-purple-500 to-purple-600', emoji: '🔒' },
+  { id: 1, nome: 'IA/Programação', cor: 'from-blue-500 to-blue-600', emoji: '🤖' },
+  { id: 2, nome: 'Realidade Virtual', cor: 'from-purple-500 to-purple-600', emoji: '🥽' },
+  { id: 3, nome: 'Química', cor: 'from-green-500 to-green-600', emoji: '🧪' },
+  { id: 4, nome: 'Artes', cor: 'from-pink-500 to-pink-600', emoji: '🎨' },
+  { id: 5, nome: 'Redação', cor: 'from-yellow-500 to-yellow-600', emoji: '✍️' },
 ]
 
 function Inscricao() {

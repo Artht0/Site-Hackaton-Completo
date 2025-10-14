@@ -4,12 +4,11 @@ import axios from 'axios'
 import TermoModal from '../components/TermoModal'
 
 const oficinas = [
-  { id: 1, nome: 'Oficina 1 – Robótica Criativa', cor: 'from-blue-500 to-blue-600', emoji: '🤖', descricao: 'Explore o fascinante mundo da robótica! Aprenda a construir e programar robôs criativos, desenvolvendo habilidades em eletrônica, programação e design. Esta oficina combina teoria e prática para criar projetos inovadores.' },
-  { id: 2, nome: 'Oficina 2 – Design Thinking', cor: 'from-green-500 to-green-600', emoji: '🎨', descricao: 'Desenvolva sua criatividade e aprenda metodologias de design centradas no usuário. Explore técnicas de brainstorming, prototipagem rápida e resolução criativa de problemas para criar soluções inovadoras.' },
-  { id: 3, nome: 'Oficina 3 – Programação Web', cor: 'from-yellow-500 to-yellow-600', emoji: '💻', descricao: 'Mergulhe no desenvolvimento web moderno! Aprenda HTML, CSS e JavaScript para criar sites responsivos e interativos. Construa projetos práticos e desenvolva habilidades essenciais para o mercado de tecnologia.' },
-  { id: 4, nome: 'Oficina 4 – Inteligência Artificial', cor: 'from-red-500 to-red-600', emoji: '🧠', descricao: 'Descubra os conceitos fundamentais de IA e machine learning. Experimente com algoritmos inteligentes, redes neurais e aprenda a criar aplicações que aprendem e se adaptam automaticamente.' },
-  { id: 5, nome: 'Oficina 5 – Desenvolvimento Mobile', cor: 'from-orange-500 to-orange-600', emoji: '📱', descricao: 'Crie aplicativos incríveis para smartphones! Aprenda a desenvolver apps nativos e multiplataforma, explorando as melhores práticas de UX mobile e funcionalidades avançadas dos dispositivos.' },
-  { id: 6, nome: 'Oficina 6 – Segurança Digital', cor: 'from-purple-500 to-purple-600', emoji: '🔒', descricao: 'Proteja-se no mundo digital! Aprenda sobre criptografia, proteção de dados, ética hacker e as melhores práticas para manter suas informações seguras. Entenda as ameaças e como se defender delas.' },
+  { id: 1, nome: 'IA/Programação', cor: 'from-blue-500 to-blue-600', emoji: '🤖', descricao: 'Aprenda os fundamentos de Inteligência Artificial e desenvolva seus primeiros algoritmos inteligentes. Explore o mundo da programação e crie soluções inovadoras com tecnologia de ponta.' },
+  { id: 2, nome: 'Realidade Virtual', cor: 'from-purple-500 to-purple-600', emoji: '🥽', descricao: 'Mergulhe em mundos virtuais imersivos e descubra como criar experiências em VR. Explore as tecnologias de realidade virtual e desenvolva projetos que transformam a forma de interagir com o digital.' },
+  { id: 3, nome: 'Química', cor: 'from-green-500 to-green-600', emoji: '🧪', descricao: 'Experimente o fascinante mundo das reações químicas através de práticas laboratoriais seguras e divertidas. Descubra como a química está presente no nosso dia a dia e crie soluções criativas.' },
+  { id: 4, nome: 'Artes', cor: 'from-pink-500 to-pink-600', emoji: '🎨', descricao: 'Libere sua criatividade através de diversas técnicas artísticas, desde pintura até arte digital. Desenvolva seu olhar artístico e aprenda a expressar ideias através da arte visual.' },
+  { id: 5, nome: 'Redação', cor: 'from-yellow-500 to-yellow-600', emoji: '✍️', descricao: 'Aprimore suas habilidades de escrita e aprenda técnicas para criar textos claros e impactantes. Desenvolva argumentação sólida e descubra como comunicar suas ideias de forma eficaz.' },
 ]
 
 function OficinaPage() {
