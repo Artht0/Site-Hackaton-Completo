@@ -21,13 +21,13 @@ function TermoModal({ onClose }) {
         <div className="p-6 overflow-y-auto max-h-[calc(80vh-140px)]">
           <div className="space-y-4 text-gray-700">
             <p className="font-semibold text-lg text-gray-900">
-              Hackathon Escolar 2025 - Termos e Condições
+              Open Doors Simetria 2025 - Termos e Condições
             </p>
 
             <section>
               <h3 className="font-bold text-gray-900 mb-2">1. Aceitação dos Termos</h3>
               <p className="text-sm leading-relaxed">
-                Ao se inscrever no Hackathon Escolar 2025, você concorda em cumprir e estar vinculado 
+                Ao se inscrever no Open Doors Simetria 2025, você concorda em cumprir e estar vinculado 
                 a estes termos e condições. Se você não concordar com qualquer parte destes termos, 
                 não deverá participar do evento.
               </p>
@@ -71,7 +71,7 @@ function TermoModal({ onClose }) {
               <h3 className="font-bold text-gray-900 mb-2">6. Uso de Imagem</h3>
               <p className="text-sm leading-relaxed">
                 Ao participar do evento, você autoriza a captação e uso de sua imagem em fotografias 
-                e vídeos para divulgação do Hackathon Escolar em materiais promocionais, redes sociais 
+                e vídeos para divulgação do Open Doors Simetria em materiais promocionais, redes sociais 
                 e website oficial.
               </p>
             </section>

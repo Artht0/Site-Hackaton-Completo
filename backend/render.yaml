@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: hackathon-backend
+    name: open-doors-backend
     env: node
     region: oregon
     plan: free
