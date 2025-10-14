@@ -20,7 +20,7 @@ function Home() {
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Hackathon Escolar 2025
+              Open Doors Simetria 2025
             </h1>
             
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-8 rounded-full"></div>
@@ -30,7 +30,7 @@ function Home() {
           <div className="space-y-6 mb-10 text-gray-700">
             <p className="text-lg md:text-xl leading-relaxed text-center">
               Bem-vindo ao maior evento de inovação e tecnologia do ano! 
-              O Hackathon Escolar 2025 é uma oportunidade única para estudantes 
+              O Open Doors Simetria 2025 é uma oportunidade única para estudantes 
               explorarem suas habilidades criativas, aprenderem novas tecnologias 
               e colaborarem em projetos incríveis.
             </p>
