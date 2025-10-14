@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+
+# Ambiente
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dados (não versionar inscrições)
+data/inscricoes.json
+
+# Editor
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+

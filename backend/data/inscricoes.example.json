@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1697123456789,
+    "nome": "Maria Silva Santos",
+    "cpf": "123.456.789-00",
+    "email": "maria.silva@email.com",
+    "oficina": "Oficina 1 – Robótica Criativa",
+    "dataInscricao": "2025-10-14T10:30:00.000Z"
+  },
+  {
+    "id": 1697123456790,
+    "nome": "João Pedro Oliveira",
+    "cpf": "987.654.321-00",
+    "email": "joao.pedro@email.com",
+    "oficina": "Oficina 3 – Programação Web",
+    "dataInscricao": "2025-10-14T11:15:00.000Z"
+  },
+  {
+    "id": 1697123456791,
+    "nome": "Ana Carolina Costa",
+    "cpf": "456.789.123-00",
+    "email": "ana.costa@email.com",
+    "oficina": "Oficina 2 – Design Thinking",
+    "dataInscricao": "2025-10-14T14:20:00.000Z"
+  }
+]
+

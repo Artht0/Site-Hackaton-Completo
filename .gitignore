@@ -1,0 +1,41 @@
+# Dependências
+node_modules/
+*/node_modules/
+
+# Ambiente
+.env
+*/.env
+.env.local
+.env.production
+
+# Build
+dist/
+build/
+*/dist/
+*/build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dados
+backend/data/inscricoes.json
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Temporários
+*.tmp
+*.temp
+
