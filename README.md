@@ -1,6 +1,6 @@
-# 🎉 Hackathon Escolar 2025 - Sistema de Inscrições
+# 🎉 Open Doors Simetria 2025 - Sistema de Inscrições
 
-Sistema completo de inscrições para o Hackathon Escolar 2025, com frontend React e backend Node.js, incluindo envio automático de e-mails de confirmação.
+Sistema completo de inscrições para o Open Doors Simetria 2025, com frontend React e backend Node.js, incluindo envio automático de e-mails de confirmação.
 
 ## 📋 Sobre o Projeto
 
@@ -31,7 +31,7 @@ Este é um sistema full-stack completo que permite:
 ## 📁 Estrutura do Projeto
 
 ```
-hackathon-inscricoes/
+open-doors-simetria/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
@@ -65,7 +65,7 @@ hackathon-inscricoes/
 ### 1. Clonar o Repositório
 
 ```bash
-cd hackathon-inscricoes
+cd open-doors-simetria
 ```
 
 ### 2. Configurar o Backend
@@ -359,7 +359,7 @@ npm run dev
 
 ---
 
-**Desenvolvido para o Hackathon Escolar 2025** 🚀
+**Desenvolvido para o Open Doors Simetria 2025** 🚀
 
 Bom evento! 🎉
 

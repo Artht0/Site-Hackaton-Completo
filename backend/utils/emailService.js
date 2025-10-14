@@ -119,7 +119,7 @@ export async function enviarEmail({ destinatario, nome, oficina }) {
       <div class="container">
         <div class="header">
           <div class="emoji">🎉</div>
-          <h1>Hackathon Escolar 2025</h1>
+          <h1>Open Doors Simetria 2025</h1>
           <p>Confirmação de Inscrição</p>
         </div>
         
@@ -127,7 +127,7 @@ export async function enviarEmail({ destinatario, nome, oficina }) {
           <h2>Olá, ${nome}! 👋</h2>
           
           <p>
-            Estamos muito felizes em confirmar sua inscrição no <strong>Hackathon Escolar 2025</strong>!
+            Estamos muito felizes em confirmar sua inscrição no <strong>Open Doors Simetria 2025</strong>!
             Sua participação foi registrada com sucesso.
           </p>
           
@@ -150,14 +150,14 @@ export async function enviarEmail({ destinatario, nome, oficina }) {
           
           <p style="margin-top: 30px;">
             <strong>Até breve!</strong><br>
-            <span style="color: #6b7280;">Equipe Hackathon Escolar 2025</span>
+            <span style="color: #6b7280;">Equipe Open Doors Simetria 2025</span>
           </p>
         </div>
         
         <div class="footer">
           <p>
             Este é um e-mail automático, por favor não responda.<br>
-            © 2025 Hackathon Escolar - Todos os direitos reservados
+            © 2025 Open Doors Simetria - Todos os direitos reservados
           </p>
         </div>
       </div>
@@ -166,14 +166,14 @@ export async function enviarEmail({ destinatario, nome, oficina }) {
   `
 
   const mailOptions = {
-    from: `"Hackathon Escolar 2025" <${process.env.EMAIL_USER}>`,
+    from: `"Open Doors Simetria 2025" <${process.env.EMAIL_USER}>`,
     to: destinatario,
-    subject: 'Confirmação de Inscrição – Hackathon Escolar 2025',
+    subject: 'Confirmação de Inscrição – Open Doors Simetria 2025',
     html: htmlEmail,
     text: `
 Olá, ${nome}!
 
-Estamos muito felizes em confirmar sua inscrição no Hackathon Escolar 2025!
+Estamos muito felizes em confirmar sua inscrição no Open Doors Simetria 2025!
 
 OFICINA SELECIONADA:
 ${oficina}
@@ -187,7 +187,7 @@ Se você tiver alguma dúvida, não hesite em entrar em contato conosco.
 Estamos ansiosos para vê-lo no evento!
 
 Até breve!
-Equipe Hackathon Escolar 2025
+Equipe Open Doors Simetria 2025
     `.trim()
   }
 

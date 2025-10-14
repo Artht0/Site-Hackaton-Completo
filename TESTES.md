@@ -26,7 +26,7 @@ curl http://localhost:5000/
 ```json
 {
   "status": "ok",
-  "message": "API do Hackathon Escolar 2025 está funcionando!"
+  "message": "API do Open Doors Simetria 2025 está funcionando!"
 }
 ```
 
@@ -171,7 +171,7 @@ Tente cadastrar o mesmo CPF duas vezes.
 
 1. Acesse http://localhost:3000
 2. Verifique:
-   - ✅ Título "Hackathon Escolar 2025" aparece
+   - ✅ Título "Open Doors Simetria 2025" aparece
    - ✅ Descrição do evento aparece
    - ✅ Ícones e cards aparecem
    - ✅ Botão "Inscreva-se Agora" está visível

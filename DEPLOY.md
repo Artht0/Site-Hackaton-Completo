@@ -18,9 +18,9 @@ Este guia detalha como fazer o deploy do sistema em produção.
 ```bash
 git init
 git add .
-git commit -m "Projeto Hackathon Escolar 2025 completo"
+git commit -m "Projeto Open Doors Simetria 2025 completo"
 git branch -M main
-git remote add origin https://github.com/seu-usuario/hackathon-inscricoes.git
+git remote add origin https://github.com/seu-usuario/open-doors-simetria.git
 git push -u origin main
 ```
 
@@ -36,7 +36,7 @@ git push -u origin main
 
 2. **Importar Projeto**
    - Clique em "Add New..." → "Project"
-   - Selecione o repositório `hackathon-inscricoes`
+   - Selecione o repositório `open-doors-simetria`
    - Clique em "Import"
 
 3. **Configurar Projeto**
@@ -57,7 +57,7 @@ git push -u origin main
    - Clique em "Deploy"
    - Aguarde 2-3 minutos
    - ✅ Seu site estará no ar!
-   - URL será algo como: `https://hackathon-inscricoes.vercel.app`
+   - URL será algo como: `https://open-doors-simetria.vercel.app`
 
 ### Opção B: Via CLI
 
@@ -95,12 +95,12 @@ git push
    - Selecione "Web Service"
 
 3. **Conectar Repositório**
-   - Selecione o repositório `hackathon-inscricoes`
+   - Selecione o repositório `open-doors-simetria`
    - Clique em "Connect"
 
 4. **Configurar Serviço**
    ```
-   Name: hackathon-backend
+   Name: open-doors-backend
    Region: Oregon (US West) ou mais próximo
    Branch: main
    Root Directory: backend
@@ -122,7 +122,7 @@ git push
    EMAIL_SERVICE = gmail
    EMAIL_USER = seu-email@gmail.com
    EMAIL_PASS = sua-senha-de-app
-   FRONTEND_URL = https://hackathon-inscricoes.vercel.app
+   FRONTEND_URL = https://open-doors-simetria.vercel.app
    NODE_VERSION = 18.0.0
    ```
 
@@ -130,20 +130,20 @@ git push
    - Clique em "Create Web Service"
    - Aguarde 5-10 minutos
    - ✅ Backend no ar!
-   - URL será algo como: `https://hackathon-backend.onrender.com`
+   - URL será algo como: `https://open-doors-backend.onrender.com`
 
 ### Testar Backend
 
 Abra no navegador:
 ```
-https://hackathon-backend.onrender.com/
+https://open-doors-backend.onrender.com/
 ```
 
 Deve retornar:
 ```json
 {
   "status": "ok",
-  "message": "API do Hackathon Escolar 2025 está funcionando!"
+  "message": "API do Open Doors Simetria 2025 está funcionando!"
 }
 ```
 
@@ -156,7 +156,7 @@ Deve retornar:
 1. Vá em "Settings" → "Environment Variables"
 2. Edite `VITE_API_URL`:
    ```
-   VITE_API_URL = https://hackathon-backend.onrender.com
+   VITE_API_URL = https://open-doors-backend.onrender.com
    ```
 3. Clique em "Save"
 4. Vá em "Deployments" → "Redeploy"
@@ -166,7 +166,7 @@ Deve retornar:
 1. Vá em "Environment"
 2. Edite `FRONTEND_URL`:
    ```
-   FRONTEND_URL = https://hackathon-inscricoes.vercel.app
+   FRONTEND_URL = https://open-doors-simetria.vercel.app
    ```
 3. Salve (o serviço reiniciará automaticamente)
 
@@ -183,7 +183,7 @@ Deve retornar:
 2. **Novo Projeto**
    - Clique em "New Project"
    - Selecione "Deploy from GitHub repo"
-   - Escolha `hackathon-inscricoes`
+   - Escolha `open-doors-simetria`
 
 3. **Configurar**
    - Root Directory: `backend`
@@ -196,7 +196,7 @@ Deve retornar:
    EMAIL_SERVICE = gmail
    EMAIL_USER = seu-email@gmail.com
    EMAIL_PASS = sua-senha-de-app
-   FRONTEND_URL = https://hackathon-inscricoes.vercel.app
+   FRONTEND_URL = https://open-doors-simetria.vercel.app
    NODE_VERSION = 18
    ```
 

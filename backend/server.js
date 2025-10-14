@@ -26,7 +26,7 @@ app.use('/api/inscricoes', inscricoesRouter)
 app.get('/', (req, res) => {
   res.json({ 
     status: 'ok', 
-    message: 'API do Hackathon Escolar 2025 está funcionando!' 
+    message: 'API do Open Doors Simetria 2025 está funcionando!' 
   })
 })
 

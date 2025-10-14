@@ -1,4 +1,4 @@
-# 🎉 BEM-VINDO AO SISTEMA DE INSCRIÇÕES DO HACKATHON ESCOLAR 2025!
+# 🎉 BEM-VINDO AO SISTEMA DE INSCRIÇÕES DO OPEN DOORS SIMETRIA 2025!
 
 ## ✅ Projeto Completo Criado com Sucesso!
 
@@ -97,7 +97,7 @@ npm run dev
 ## 📁 Estrutura de Arquivos
 
 ```
-hackathon-inscricoes/
+open-doors-simetria/
 │
 ├── 📂 frontend/              ← Interface React
 │   ├── src/
@@ -133,7 +133,7 @@ hackathon-inscricoes/
 
 ### Frontend:
 ✅ Página inicial com:
-- Título "Hackathon Escolar 2025"
+- Título "Open Doors Simetria 2025"
 - Descrição atraente do evento
 - 3 cards de benefícios (Inovação, Aprendizado, Colaboração)
 - Botão call-to-action com animação
@@ -403,7 +403,7 @@ Seu sistema está **100% completo e funcional**!
 
 <div align="center">
 
-# 🎓 Hackathon Escolar 2025
+# 🎓 Open Doors Simetria 2025
 
 **Sistema profissional de inscrições**  
 **Desenvolvido com React + Node.js**  
@@ -413,7 +413,7 @@ Seu sistema está **100% completo e funcional**!
 
 ---
 
-**Desenvolvido com ❤️ para o Hackathon Escolar 2025**
+**Desenvolvido com ❤️ para o Open Doors Simetria 2025**
 
 🎉 **Bom evento!** 🎉
 
