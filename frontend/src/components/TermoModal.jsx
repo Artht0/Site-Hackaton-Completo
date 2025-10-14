@@ -36,7 +36,7 @@ function TermoModal({ onClose }) {
             <section>
               <h3 className="font-bold text-gray-900 mb-2">2. Elegibilidade</h3>
               <p className="text-sm leading-relaxed">
-                O evento é aberto a estudantes regularmente matriculados em instituições de ensino. 
+                O evento é aberto a estudantes devidamente matriculados no colégio simetria e seus familiares. 
                 Participantes menores de 18 anos devem ter autorização expressa dos pais ou responsáveis legais.
               </p>
             </section>
@@ -44,7 +44,7 @@ function TermoModal({ onClose }) {
             <section>
               <h3 className="font-bold text-gray-900 mb-2">3. Comportamento e Conduta</h3>
               <p className="text-sm leading-relaxed">
-                Os participantes devem manter comportamento respeitoso e profissional durante todo o evento. 
+                Os participantes devem manter comportamento respeitoso e ético durante todo o evento. 
                 Comportamento inadequado, assédio ou desrespeito a outros participantes, organizadores ou 
                 patrocinadores resultará em desqualificação imediata.
               </p>
@@ -103,7 +103,16 @@ function TermoModal({ onClose }) {
             </section>
 
             <section>
-              <h3 className="font-bold text-gray-900 mb-2">10. Aceitação</h3>
+              <h3 className="font-bold text-gray-900 mb-2">10. Sobre o Hackathon</h3>
+              <p className="text-sm leading-relaxed">
+              Ao participar do Hackathon, o estudante concorda em permanecer nas salas de aula designadas durante todo o evento.
+              O não cumprimento desta regra poderá resultar em desqualificação imediata da equipe ou participante.
+              É responsabilidade do estudante seguir todas as instruções dos organizadores e respeitar o cronograma do Hackathon. 
+              </p>
+            </section>
+            
+            <section>
+              <h3 className="font-bold text-gray-900 mb-2">11. Aceitação</h3>
               <p className="text-sm leading-relaxed">
                 Ao marcar a caixa de aceitação, você declara ter lido, compreendido e concordado com 
                 todos os termos e condições aqui estabelecidos.
