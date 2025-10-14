@@ -1,6 +1,6 @@
 # 📊 Como Acessar os Dados dos Inscritos
 
-Guia completo para visualizar e exportar os dados das inscrições do Hackathon.
+Guia completo para visualizar e exportar os dados das inscrições do Open Doors Simetria.
 
 ---
 

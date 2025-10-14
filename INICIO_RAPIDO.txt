@@ -1,6 +1,6 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
-║            🎉  HACKATHON ESCOLAR 2025 - SISTEMA DE INSCRIÇÕES  🎉            ║
+║          🎉  OPEN DOORS SIMETRIA 2025 - SISTEMA DE INSCRIÇÕES  🎉           ║
 ║                                                                              ║
 ║                        GUIA DE INÍCIO RÁPIDO                                 ║
 ║                                                                              ║
@@ -11,7 +11,7 @@
 │                                                                             │
 │  📁  ESTRUTURA DO PROJETO                                                   │
 │                                                                             │
-│  hackathon-inscricoes/                                                      │
+│  open-doors-simetria/                                                       │
 │  ├── 📂 frontend/           → Interface React + Tailwind                    │
 │  ├── 📂 backend/            → API Node.js + Express                         │
 │  ├── 📄 README.md           → Documentação completa                         │
@@ -232,7 +232,7 @@
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
-║                    🎉  BOA SORTE COM SEU HACKATHON!  🎉                      ║
+║                🎉  BOA SORTE COM SEU OPEN DOORS SIMETRIA!  🎉                ║
 ║                                                                              ║
 ║            Sistema completo e pronto para receber inscrições! 🚀             ║
 ║                                                                              ║
