@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Inscricao from './pages/Inscricao'
 import OficinaPage from './pages/OficinaPage'
+import DesafiosTurma from './pages/DesafiosTurma'
+import DesafioPage from './pages/DesafioPage'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/inscricao" element={<Inscricao />} />
           <Route path="/oficina/:id" element={<OficinaPage />} />
+          <Route path="/desafios-turma" element={<DesafiosTurma />} />
+          <Route path="/desafio/:id" element={<DesafioPage />} />
         </Routes>
       </div>
     </Router>
