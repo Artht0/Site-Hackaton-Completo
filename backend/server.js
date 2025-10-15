@@ -45,15 +45,6 @@ app.use((err, req, res, next) => {
 // Iniciar servidor
 app.listen(PORT, () => {
   console.log(`🚀 Servidor rodando na porta ${PORT}`)
-  
-  // Mensagem amigável sobre configuração de e-mail
-  if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
-    console.log(`📧 E-mail configurado: ${process.env.EMAIL_USER}`)
-    console.log(`✅ Sistema funcionando com envio automático de e-mails`)
-  } else {
-    console.log(`⚠️  E-mail não configurado`)
-    console.log(`✅ Sistema funcionando normalmente (sem envio de e-mails)`)
-    console.log(`💾 Todas as inscrições serão salvas em: data/inscricoes.json`)
-  }
+  console.log(`✅ Sistema funcionando - inscrições salvas em: data/inscricoes.json`)
 })
 

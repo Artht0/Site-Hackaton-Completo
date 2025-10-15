@@ -3,7 +3,6 @@ import { body, validationResult } from 'express-validator'
 import fs from 'fs/promises'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { enviarEmail } from '../utils/emailService.js'
 
 const router = express.Router()
 const __filename = fileURLToPath(import.meta.url)
@@ -88,27 +87,11 @@ router.post('/', [
     inscricoes.push(novaInscricao)
     await fs.writeFile(DATA_FILE, JSON.stringify(inscricoes, null, 2))
 
-    // Tentar enviar e-mail de confirmação (opcional)
-    let emailEnviado = false
-    try {
-      await enviarEmail({
-        destinatario: email,
-        nome,
-        oficina
-      })
-      emailEnviado = true
-      console.log('✅ E-mail enviado com sucesso para:', email)
-    } catch (emailError) {
-      console.warn('⚠️  E-mail não enviado (configuração desabilitada ou erro)')
-      console.warn('   Inscrição salva normalmente em:', DATA_FILE)
-      // Não retorna erro - o sistema continua funcionando
-    }
+    console.log('✅ Inscrição salva com sucesso para:', email)
 
     res.status(201).json({ 
       status: 'ok', 
-      message: emailEnviado 
-        ? 'Inscrição salva e e-mail enviado com sucesso!'
-        : 'Inscrição salva com sucesso!',
+      message: 'Inscrição salva com sucesso!',
       inscricao: {
         id: novaInscricao.id,
         nome: novaInscricao.nome,

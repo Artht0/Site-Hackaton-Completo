@@ -160,7 +160,7 @@ function DesafioPage() {
       if (response.data.status === 'ok') {
         setMessage({ 
           type: 'success', 
-          text: 'Inscrição concluída com sucesso! Verifique seu e-mail.' 
+          text: 'Inscrição concluída com sucesso!' 
         })
         
         // Resetar formulário
