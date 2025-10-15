@@ -39,6 +39,10 @@ router.post('/', [
   body('oficina').notEmpty().withMessage('Oficina é obrigatória')
 ], async (req, res) => {
   try {
+    console.log('📥 Nova requisição de inscrição recebida:', req.body)
+    console.log('🌐 Origin:', req.headers.origin)
+    console.log('🔗 Headers:', req.headers)
+    
     // Validar campos
     const errors = validationResult(req)
     if (!errors.isEmpty()) {

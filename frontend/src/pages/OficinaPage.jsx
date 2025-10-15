@@ -84,6 +84,9 @@ function OficinaPage() {
 
     try {
       const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000'
+      console.log('🔗 API URL:', API_URL)
+      console.log('📤 Dados enviados:', formData)
+      
       const response = await axios.post(`${API_URL}/api/inscricoes`, formData)
       
       if (response.data.status === 'ok') {
@@ -102,6 +105,10 @@ function OficinaPage() {
         }, 3000)
       }
     } catch (error) {
+      console.error('❌ Erro na inscrição:', error)
+      console.error('❌ Response:', error.response)
+      console.error('❌ Request:', error.request)
+      
       setMessage({ 
         type: 'error', 
         text: error.response?.data?.message || 'Erro ao enviar inscrição. Tente novamente.' 

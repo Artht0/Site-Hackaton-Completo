@@ -16,12 +16,7 @@ const PORT = process.env.PORT || 5000
 
 // Middleware
 app.use(cors({
-  origin: [
-    'https://site-hackaton-completo.vercel.app',
-    'https://site-hackaton-completo-git-main.vercel.app', 
-    'http://localhost:3000',
-    'http://localhost:5173'
-  ],
+  origin: true, // Aceita qualquer origem durante desenvolvimento
   credentials: true
 }))
 app.use(express.json())
