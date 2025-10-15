@@ -58,15 +58,15 @@ router.post('/', [
     const data = await fs.readFile(DATA_FILE, 'utf-8')
     const inscricoes = JSON.parse(data)
 
-    // Verificar se CPF ou e-mail já estão cadastrados
-    const jaInscrito = inscricoes.find(
-      i => i.cpf === cpf || i.email.toLowerCase() === email.toLowerCase()
+    // Verificar se já está inscrito na MESMA oficina/desafio
+    const jaInscritoNaOficina = inscricoes.find(
+      i => (i.cpf === cpf || i.email.toLowerCase() === email.toLowerCase()) && i.oficina === oficina
     )
     
-    if (jaInscrito) {
+    if (jaInscritoNaOficina) {
       return res.status(400).json({ 
         status: 'error', 
-        message: 'CPF ou e-mail já cadastrado.' 
+        message: 'Você já está inscrito nesta oficina/desafio.' 
       })
     }
 

@@ -173,9 +173,9 @@ function DesafioPage() {
         })
         setTermoAceito(false)
         
-        // Redirecionar após 3 segundos
+        // Redirecionar após 3 segundos para página de seleção de desafios
         setTimeout(() => {
-          navigate('/')
+          navigate('/desafios-turma')
         }, 3000)
       }
     } catch (error) {

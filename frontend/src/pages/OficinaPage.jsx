@@ -96,9 +96,9 @@ function OficinaPage() {
         setFormData({ nome: '', cpf: '', email: '', oficina: oficina.nome })
         setTermoAceito(false)
         
-        // Redirecionar após 3 segundos
+        // Redirecionar após 3 segundos para página de seleção de oficinas
         setTimeout(() => {
-          navigate('/')
+          navigate('/inscricao')
         }, 3000)
       }
     } catch (error) {
