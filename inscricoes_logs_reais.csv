@@ -1,30 +1,30 @@
-id,timestamp,nome,cpf_mascarado,email_mascarado,oficina,grupo
-1,2025-10-17T18:11:55.766Z,Fernanda Sardinha de Abreu tacon,891.***.**00,fe***@yahoo.com.br,Redação,
-2,2025-10-17T18:11:55.767Z,Fernanda Sardinha de Abreu tacon,891.***.**00,fe***@yahoo.com.br,Iluminando uma cidade - 4° Ano,
-3,2025-10-17T18:11:55.767Z,Lucas Zacharias Vale Garcia,881.***.**68,kz***@hotmail.com,Realidade Virtual,
-4,2025-10-17T18:11:55.767Z,Marcio henrique pereira garcia,924.***.**15,ma***@gmail.com,Realidade Virtual,
-5,2025-10-17T18:11:55.767Z,Lucas Zacharias Vale Garcia,881.***.**68,kz***@hotmail.com,Realidade Virtual,
-6,2025-10-17T18:11:55.767Z,Lucas Zacharias Vale Garcia,086.***.**24,kz***@hotmail.com,Realidade Virtual,
-7,2025-10-17T18:11:55.767Z,Karina Zacharias Vale Garcia,881.***.**68,kz***@hotmail.com,Realidade Virtual,
-8,2025-10-17T18:11:55.767Z,Léa Fortunato Chaves,989.***.**72,le***@gmail.com,Artes,
-9,2025-10-17T18:11:55.767Z,Léa Fortunato,989.***.**72,le***@gmail.com,Deu praia! - Educação Infantil,
-10,2025-10-17T18:11:55.767Z,VANESSA EMANUELLE CARVALHO MELO RIGONATO,910.***.**00,ve***@gmail.com,Robótica e programação - 5° Ano,
-11,2025-10-17T18:11:55.767Z,FAINY christhiny Paiva dias calixto,025.***.**54,fa***@hotmail.com,Química,
-12,2025-10-17T18:11:55.767Z,FAINY christhiny Paiva dias calixto,025.***.**54,fa***@hotmail.com,Realidade Virtual,
-13,2025-10-17T18:11:55.767Z,FAINY christhiny Paiva dias calixto,025.***.**54,fa***@hotmail.com,Artes,
-14,2025-10-17T18:11:55.767Z,FAINY christhiny Paiva dias calixto,025.***.**54,fa***@hotmail.com,Deu praia! - Educação Infantil,
-15,2025-10-17T18:11:55.767Z,ARIANA RITVA SANTOS LOOKS DE SIQUEIRA,012.***.**03,ar***@gmail.com,Química,
-16,2025-10-17T18:11:55.767Z,Fabio Araújo de Siqueira,002.***.**30,ar***@gmail.com,IA/Programação,
-17,2025-10-17T18:11:55.767Z,Maria Maia de Bem,088.***.**22,am***@gmail.com,Folclore com argila - 1° e 2° Anos,
-18,2025-10-17T18:11:55.767Z,Maria Maia de Bem,088.***.**22,am***@gmail.com,Artes,
-19,2025-10-17T18:11:55.767Z,Amanda Mayra Maia de Freitas,035.***.**31,am***@gmail.com,Artes,
-20,2025-10-17T18:11:55.767Z,Lucas Pozzobon de Bem,724.***.**44,de***@gmail.com,Artes,
-21,2025-10-17T18:11:55.767Z,Lucas,724.***.**44,de***@gmail.com,IA/Programação,
-22,2025-10-17T18:11:55.767Z,Thiago Francisco de Meneses,976.***.**68,th***@gmail.com,Construindo uma cidade - 3° Ano,
-23,2025-10-17T18:11:55.767Z,Thiago Francisco de Meneses,976.***.**68,th***@gmail.com,Robótica e programação - 5° Ano,
-24,2025-10-17T18:11:55.767Z,Kamilla Soares Garcia,003.***.**70,mi***@gmail.com,Construindo uma cidade - 3° Ano,
-25,2025-10-17T18:11:55.767Z,Kamilla Soares Garcia,003.***.**70,mi***@gmail.com,Robótica e programação - 5° Ano,
-26,2025-10-17T18:11:55.767Z,Thiago Francisco de Meneses,976.***.**68,th***@gmail.com,IA/Programação,
-27,2025-10-17T18:11:55.767Z,Kamilla Soares Garcia,003.***.**70,mi***@gmail.com,IA/Programação,
-28,2025-10-17T18:11:55.767Z,Thiago Francisco de Meneses,976.***.**68,th***@gmail.com,Artes,
-29,2025-10-17T18:11:55.767Z,Kamilla Soares Garcia,003.***.**70,mi***@gmail.com,Artes,
+id,nome,oficina
+1,Fernanda Sardinha de Abreu tacon,Redação
+2,Fernanda Sardinha de Abreu tacon,Iluminando uma cidade - 4° Ano
+3,Lucas Zacharias Vale Garcia,Realidade Virtual
+4,Marcio henrique pereira garcia,Realidade Virtual
+5,Lucas Zacharias Vale Garcia,Realidade Virtual
+6,Lucas Zacharias Vale Garcia,Realidade Virtual
+7,Karina Zacharias Vale Garcia,Realidade Virtual
+8,Léa Fortunato Chaves,Artes
+9,Léa Fortunato,Deu praia! - Educação Infantil
+10,VANESSA EMANUELLE CARVALHO MELO RIGONATO,Robótica e programação - 5° Ano
+11,FAINY christhiny Paiva dias calixto,Química
+12,FAINY christhiny Paiva dias calixto,Realidade Virtual
+13,FAINY christhiny Paiva dias calixto,Artes
+14,FAINY christhiny Paiva dias calixto,Deu praia! - Educação Infantil
+15,ARIANA RITVA SANTOS LOOKS DE SIQUEIRA,Química
+16,Fabio Araújo de Siqueira,IA/Programação
+17,Maria Maia de Bem,Folclore com argila - 1° e 2° Anos
+18,Maria Maia de Bem,Artes
+19,Amanda Mayra Maia de Freitas,Artes
+20,Lucas Pozzobon de Bem,Artes
+21,Lucas,IA/Programação
+22,Thiago Francisco de Meneses,Construindo uma cidade - 3° Ano
+23,Thiago Francisco de Meneses,Robótica e programação - 5° Ano
+24,Kamilla Soares Garcia,Construindo uma cidade - 3° Ano
+25,Kamilla Soares Garcia,Robótica e programação - 5° Ano
+26,Thiago Francisco de Meneses,IA/Programação
+27,Kamilla Soares Garcia,IA/Programação
+28,Thiago Francisco de Meneses,Artes
+29,Kamilla Soares Garcia,Artes

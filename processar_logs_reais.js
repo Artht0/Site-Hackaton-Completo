@@ -118,12 +118,8 @@ function extrairInscricoesDosLogs(logs) {
 function processarInscricoes(dados) {
   return dados.map((inscricao, index) => ({
     id: index + 1,
-    timestamp: inscricao.timestamp,
     nome: inscricao.nome,
-    cpf_mascarado: mascararCPF(inscricao.cpf),
-    email_mascarado: mascararEmail(inscricao.email),
-    oficina: inscricao.oficina,
-    grupo: inscricao.grupo || ''
+    oficina: inscricao.oficina
   }));
 }
 
