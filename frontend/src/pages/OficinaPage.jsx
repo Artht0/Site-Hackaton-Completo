@@ -5,10 +5,9 @@ import TermoModal from '../components/TermoModal'
 
 const oficinas = [
   { id: 1, nome: 'IA/Programação', cor: 'from-blue-500 to-blue-600', emoji: '🤖', descricao: 'Aprenda os fundamentos de Inteligência Artificial e desenvolva seus primeiros algoritmos inteligentes. Explore o mundo da programação e crie soluções inovadoras com tecnologia de ponta.' },
-  { id: 2, nome: 'Realidade Virtual', cor: 'from-purple-500 to-purple-600', emoji: '🥽', descricao: 'Mergulhe em mundos virtuais imersivos e descubra como criar experiências em VR. Explore as tecnologias de realidade virtual e desenvolva projetos que transformam a forma de interagir com o digital.' },
-  { id: 3, nome: 'Química', cor: 'from-green-500 to-green-600', emoji: '🧪', descricao: 'Experimente o fascinante mundo das reações químicas através de práticas laboratoriais seguras e divertidas. Descubra como a química está presente no nosso dia a dia e crie soluções criativas.' },
-  { id: 4, nome: 'Artes', cor: 'from-pink-500 to-pink-600', emoji: '🎨', descricao: 'Libere sua criatividade através de diversas técnicas artísticas, desde pintura até arte digital. Desenvolva seu olhar artístico e aprenda a expressar ideias através da arte visual.' },
-  { id: 5, nome: 'Redação', cor: 'from-yellow-500 to-yellow-600', emoji: '✍️', descricao: 'Aprimore suas habilidades de escrita e aprenda técnicas para criar textos claros e impactantes. Desenvolva argumentação sólida e descubra como comunicar suas ideias de forma eficaz.' },
+  { id: 2, nome: 'Química', cor: 'from-green-500 to-green-600', emoji: '🧪', descricao: 'Experimente o fascinante mundo das reações químicas através de práticas laboratoriais seguras e divertidas. Descubra como a química está presente no nosso dia a dia e crie soluções criativas.' },
+  { id: 3, nome: 'Artes', cor: 'from-pink-500 to-pink-600', emoji: '🎨', descricao: 'Libere sua criatividade através de diversas técnicas artísticas, desde pintura até arte digital. Desenvolva seu olhar artístico e aprenda a expressar ideias através da arte visual.' },
+  { id: 4, nome: 'Redação', cor: 'from-yellow-500 to-yellow-600', emoji: '✍️', descricao: 'Aprimore suas habilidades de escrita e aprenda técnicas para criar textos claros e impactantes. Desenvolva argumentação sólida e descubra como comunicar suas ideias de forma eficaz.' },
 ]
 
 function OficinaPage() {

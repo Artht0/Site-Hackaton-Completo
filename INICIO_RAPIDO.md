@@ -84,10 +84,9 @@ pkill -f 'vite'
 ## 📝 Oficinas Disponíveis
 
 1. 🤖 IA/Programação
-2. 🥽 Realidade Virtual
-3. 🧪 Química
-4. 🎨 Artes
-5. ✍️ Redação
+2. 🧪 Química
+3. 🎨 Artes
+4. ✍️ Redação
 
 ---
 
