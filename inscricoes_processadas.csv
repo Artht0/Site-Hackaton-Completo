@@ -1,0 +1,4 @@
+id,nome,cpf_mascarado,email_mascarado,oficina,dataInscricao
+1697123456789,Maria Silva Santos,123.***.**00,ma***@email.com,Oficina 1 – Robótica Criativa,2025-10-14T10:30:00.000Z
+1697123456790,João Pedro Oliveira,987.***.**00,jo***@email.com,Oficina 3 – Programação Web,2025-10-14T11:15:00.000Z
+1697123456791,Ana Carolina Costa,456.***.**00,an***@email.com,Oficina 2 – Design Thinking,2025-10-14T14:20:00.000Z
