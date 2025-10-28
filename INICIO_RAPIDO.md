@@ -85,8 +85,7 @@ pkill -f 'vite'
 
 1. 🤖 IA/Programação
 2. 🧪 Química
-3. 🎨 Artes
-4. ✍️ Redação
+3. ✍️ Redação
 
 ---
 
