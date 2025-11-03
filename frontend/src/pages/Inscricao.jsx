@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 const oficinas = [
   { id: 1, nome: 'IA/Programação', cor: 'from-blue-500 to-blue-600', emoji: '🤖' },
   { id: 2, nome: 'Química', cor: 'from-green-500 to-green-600', emoji: '🧪' },
-  { id: 4, nome: 'Redação', cor: 'from-yellow-500 to-yellow-600', emoji: '✍️' },
 ]
 
 function Inscricao() {
@@ -31,7 +30,7 @@ function Inscricao() {
         </div>
 
         {/* Grade de Oficinas */}
-        <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-10 animate-slide-up">
+        <div className="bg-white rounded-3vxl shadow-2xl p-8 md:p-10 animate-slide-up">
           <div className="grid grid-cols-2 gap-4">
             {oficinas.map((oficina) => (
               <button
